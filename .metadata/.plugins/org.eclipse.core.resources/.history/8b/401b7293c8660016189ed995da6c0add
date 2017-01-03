@@ -1,0 +1,36 @@
+    import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ClassMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://3net.3pillarglobal.com/");
+        driver.findElement(By.id("email")).click().
+        //driver.sendKeys("jyoti.kalra@3pillarglobal.com");
+       // driver.findElement(By.xpath(".//*[@id='tabs-1']/div/p/a")).click();
+       // String	Tiltle = driver.getTitle();
+		//System.out.println(Tiltle);
+        // String currentUrl = driver.getCurrentUrl();
+        // System.out.println(currentUrl);
+         //String pageSource = driver.getPageSource();
+        		// System.out.println(pageSource);
+		driver.close();
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+package com.org.HashSet;
+
+import java.util.HashSet;
+
+public class HashSetPractice {
+
+	public static void main(String[] args) {
+		
+		HashSet <String> al = new HashSet <String>();
+
+	}
+
+}

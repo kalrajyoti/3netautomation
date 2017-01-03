@@ -1,0 +1,41 @@
+
+public class ThreeNetMainNavigationPanelDetails {
+
+	ThreeNetMainNavigationPanelNames myTaskheading;
+	ThreeNetMainNavigationPanelNames DiscussionHeading;
+	ThreeNetMainNavigationPanelNames NewsLettersheading;
+	
+
+	
+	       
+	       
+	       ThreeNetMainNavigationPanelDetails()
+	       
+	       {
+	    	   /*String[] myTaskColoumName = {"Type", "Details"};
+	    	   String[] firstHeadercoloum1Detail = {"Approve Attendance","Approve Leaves    ","Verify Resumes    "};
+	    	   String[] firstheadersecondrcolumsDetail = {"No Pending request","no pending request","no pending request", "       "};
+	    	   String[] firstheaderthirdcoloumDetail = {"   ", "  ", "  "};
+	    	 myTaskheading = new ThreeNetMainNavigationPanelNames("My Task",myTaskColoumName,firstHeadercoloum1Detail,firstheadersecondrcolumsDetail,firstheaderthirdcoloumDetail);*/
+	    	 
+	    	 String[] DiscussionColoumName = {"Title", "Hits|Replies","Author Name"};
+	    	 String[] secondheadersecondcolumsDetail = {"Selling my six month old Hyundai Xcent","68 | 0","                         Rajesh Kumar (Aug 03, 05:12 PM)"}; 
+	    	 String[] secondheaderThirdcolumnDetail ={"Oops! No Holiday on Rakshabandhan..     ","70|8","                           Jyoti kalra (Aug 09, 7:09 PM"};
+	    	 DiscussionHeading = new ThreeNetMainNavigationPanelNames("Discussion",DiscussionColoumName,secondheadersecondcolumsDetail,secondheaderThirdcolumnDetail);
+	    	  //String[] newsLetterColoumName = {"3Pedia", "Competency Center","Labs"};
+	    	 // String[] thirdHeadercoloum1Detail = {"3Pedia, March 2015","3Pedia, February 2015"};
+	    	 // NewsLettersheading = new ThreeNetMainNavigationPanelNames("NewsLetters",newsLetterColoumName,thirdHeadercoloum1Detail);
+	    	   
+	       }
+	       
+	     void displayHeadings()
+	     {  System.out.println("<---------ThreeNet Main Navigation Content Started------>");
+	    	// myTaskheading.displayPanelHeadingNames();
+	    	DiscussionHeading.displayPanelHeadingNames();
+	    	// NewsLettersheading.displayPanelHeadingNames();
+	    	 System.out.println("<---------ThreeNet Main Navigation Content finished------>"); 
+	    	 
+	     }
+	       
+	       
+}

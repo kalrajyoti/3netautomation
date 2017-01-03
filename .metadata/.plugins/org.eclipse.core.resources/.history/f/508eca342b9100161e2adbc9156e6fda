@@ -1,0 +1,18 @@
+package com.org.Queue;
+
+import java.util.PriorityQueue;
+
+public class PriorityQueuePractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PriorityQueue<String> queue=new PriorityQueue<String>();  
+		queue.add("bjay");  
+		queue.add("Vijay");  
+		queue.add("Karan");  
+		queue.add("Jai");  
+		queue.add("Rahul");  
+		System.out.println("head:"+queue.element()); 
+	}
+
+}

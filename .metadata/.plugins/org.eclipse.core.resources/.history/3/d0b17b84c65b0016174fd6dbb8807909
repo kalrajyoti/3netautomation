@@ -1,0 +1,58 @@
+
+public class ThreeNetMainNavigationPanelNames {
+	String panelHeadingName;
+	String [] coloumList;
+	String[] col2;
+	
+	
+	
+	
+	ThreeNetMainNavigationPanelNames(String panelHeadingName,String [] coloumList,String[] col2)
+	{
+		this.panelHeadingName = panelHeadingName;
+		this.coloumList = coloumList;
+		this.col2 = col2;
+		
+		
+		
+	}
+	void displayPanelHeadingNames()
+	{
+		
+		
+		System.out.println(panelHeadingName);
+		System.out.println("-----------------------------------");
+		for(int count =0;count<coloumList.length;count++)
+		{
+			System.out.println(coloumList[count] + "                                            ");
+			for(int count1=0;count<col2.length;count++)
+			{
+				System.out.println(col2[count]);
+			}
+		}
+		System.out.println("");
+			
+			
+		}
+		
+	/*	for(int count =0;count<coloumDetail.length;count++)
+		{
+			System.out.println(coloumDetail[count]+ "                      " );
+			
+		}
+		System.out.print("");
+		for(int count=0;count<secondcolum.length;count++)
+		{
+			System.out.println(secondcolum[count]);
+		}
+		System.out.print("");
+		for(int count=0;count<thirdcolum.length;count++)
+		{
+			System.out.println(thirdcolum[count]);
+		}
+	}*/
+	
+	
+
+}
+	

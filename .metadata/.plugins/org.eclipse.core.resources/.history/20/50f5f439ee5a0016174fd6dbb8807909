@@ -1,0 +1,29 @@
+
+public class ThreeNetMainNavigationPanelDetails {
+
+	ThreeNetMainNavigationPanelNames myTaskheading;
+	ThreeNetMainNavigationPanelNames DiscussionHeading;
+	ThreeNetMainNavigationPanelNames NewsLettersheading;
+	
+	       
+	       
+	       ThreeNetMainNavigationPanelDetails()
+	       
+	       {
+	    	   myTaskheading = new ThreeNetMainNavigationPanelNames("My Task");
+	    	   DiscussionHeading = new ThreeNetMainNavigationPanelNames("Discussion");
+	    	   NewsLettersheading = new ThreeNetMainNavigationPanelNames("NewsLetters");
+	    	   
+	       }
+	       
+	     void displayHeadings()
+	     {  System.out.println("<---------ThreeNet Main Navigation Content Started------>");
+	    	 myTaskheading.displayPanelHeadingNames();
+	    	 DiscussionHeading.displayPanelHeadingNames();
+	    	 NewsLettersheading.displayPanelHeadingNames();
+	    	 System.out.println("<---------ThreeNet Main Navigation Content finished------>"); 
+	    	 
+	     }
+	       
+	       
+}

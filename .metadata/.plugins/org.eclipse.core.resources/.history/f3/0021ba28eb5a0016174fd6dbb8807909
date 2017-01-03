@@ -1,0 +1,9 @@
+
+public class ThreeNetMainContentArea {
+	ThreeNetMainNavigationPanelDetails headingNames;
+	
+	ThreeNetMainContentArea()
+	{
+		headingNames = new ThreeNetMainNavigationPanelDetails()
+	}
+}

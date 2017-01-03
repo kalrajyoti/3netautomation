@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [3Net-Loginsuite]">
+  <test name="LoginPage(failed)">
+    <classes>
+      <class name="com.org.threenet.test.LoginPageTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="verifyLoginForm"/>
+        </methods>
+      </class> <!-- com.org.threenet.test.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [3Net-Loginsuite] -->

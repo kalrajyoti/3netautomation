@@ -1,0 +1,36 @@
+
+public class ThreeNetMainNavigationPanelDetails {
+
+	ThreeNetMainNavigationPanelNames myTaskheading;
+	ThreeNetMainNavigationPanelNames DiscussionHeading;
+	ThreeNetMainNavigationPanelNames NewsLettersheading;
+	
+
+	
+	       
+	       
+	       ThreeNetMainNavigationPanelDetails()
+	       
+	       {
+	    	   String[] myTaskColoumName = {"Type", "Details"};
+	    	   String[] firstcoloumDetail = {"Approve Attendance","Approve Leaves    ","Verify Resumes    "};
+	    	 myTaskheading = new ThreeNetMainNavigationPanelNames("My Task",myTaskColoumName,coloumDetail);
+	    	  String[] DiscussionColoumName = {"Title", "Hits|Replies","Author Name"};
+	    	  String[] secondcoloumDetail = {"Selling my six month old Hyundai Xcent ","Oops! No Holiday on Rakshabandhan.."};
+	    	 DiscussionHeading = new ThreeNetMainNavigationPanelNames("Discussion",DiscussionColoumName,secondcoloumDetail);
+	    	  // String[] newsLetterColoumName = {"3Pedia", "Competency Center","Labs"};
+	    	  // NewsLettersheading = new ThreeNetMainNavigationPanelNames("NewsLetters",newsLetterColoumName);
+	    	   
+	       }
+	       
+	     void displayHeadings()
+	     {  System.out.println("<---------ThreeNet Main Navigation Content Started------>");
+	    	 myTaskheading.displayPanelHeadingNames();
+	    	DiscussionHeading.displayPanelHeadingNames();
+	    	// NewsLettersheading.displayPanelHeadingNames();
+	    	 System.out.println("<---------ThreeNet Main Navigation Content finished------>"); 
+	    	 
+	     }
+	       
+	       
+}

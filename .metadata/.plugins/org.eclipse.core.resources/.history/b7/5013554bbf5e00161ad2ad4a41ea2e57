@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class GCDCalculation {
+
+	 int number1,number2;
+	 int primenumber;
+	 int gcd;
+	 
+	 void performGCD(){
+		 Scanner s = new Scanner(System.in);
+		 number1 = s.nextInt();
+		 System.out.println("Enter Number one :" +number1);
+		 number2= s.nextInt();
+		 System.out.println("Enter Number second :" +number2);
+		
+		 for(int i=1;i<number1)
+	 }
+	 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

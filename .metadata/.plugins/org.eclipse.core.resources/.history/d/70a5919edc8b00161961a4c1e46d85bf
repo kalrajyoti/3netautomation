@@ -1,0 +1,29 @@
+package com.livehealtier.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import com.livehealtier.configration.BasicConf;
+
+public class BiometricScreeningpage {
+	 WebDriver driver;
+	public BiometricScreeningpage(WebDriver driver)
+	{
+		this.driver = driver;
+	}
+	
+	
+	public void shuduleBiometricScreening()
+	{
+		System.out.println("screening value in page class" +driver);
+		WebElement rootelement = driver.findElement(By.xpath(BasicConf.getPropertyValue("Menuxpath")));
+		WebElement subelement = driver.findElement(By.xpath(BasicConf.getPropertyValue("submenuxpath")));
+		System.out.println("the value of submenu"+subelement);
+		Actions act = new Actions(driver);
+		act.moveToElement(rootelement).build().perform();
+		subelement.click();
+	}
+
+}

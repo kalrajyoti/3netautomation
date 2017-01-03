@@ -1,0 +1,23 @@
+package com.org.threenet.test;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.org.config.main.ThreeNetWebsite;
+import com.org.threenet.pages.DailyAttendanceMenuItem;
+
+public class DailyAttendanceMenuItemTest extends ThreeNetWebsite {
+	public WebDriver driver;
+	@Test
+	
+	public void checkAttendance()
+	{
+		DailyAttendanceMenuItem dailyattendancemenuobj = new DailyAttendanceMenuItem(driver);
+		Assert.assertEquals(dailyattendancemenuobj.viewDailyAttendanceReport(),true);
+		
+	}
+
+	
+
+}

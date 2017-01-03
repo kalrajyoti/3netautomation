@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LH-Loginsuite" duration-ms="51572" started-at="2016-10-07T05:45:07Z" finished-at="2016-10-07T05:45:58Z">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="51572" started-at="2016-10-07T05:45:07Z" finished-at="2016-10-07T05:45:58Z">
+      <class name="com.livehealtier.test.BiometricScreeningTest">
+        <test-method status="PASS" signature="getURL()[pri:0, instance:com.livehealtier.test.BiometricScreeningTest@42d80b78]" name="getURL" is-config="true" duration-ms="12005" started-at="2016-10-07T11:15:07Z" finished-at="2016-10-07T11:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="verfiyBiometricScreening()[pri:0, instance:com.livehealtier.test.BiometricScreeningTest@42d80b78]" name="verfiyBiometricScreening" duration-ms="39551" started-at="2016-10-07T11:15:19Z" finished-at="2016-10-07T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyBiometricScreening -->
+      </class> <!-- com.livehealtier.test.BiometricScreeningTest -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- LH-Loginsuite -->
+</testng-results>

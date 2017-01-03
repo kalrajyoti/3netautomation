@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title here -->
+		<title>Testing.org, Coming Soon</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="The Trusted Testing Organisation">
+		<meta name="keywords" content="Testing, smtp, json, wcf">
+		<meta name="author" content="Lovell Developments">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Animate CSS -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+		<link href="css/settings.css" rel="stylesheet">
+		<!--[if IE ]><link rel="stylesheet" href="css/settings-ie8.css"><![endif]-->
+		<!-- Portfolio CSS -->
+		<link href="css/prettyPhoto.css" rel="stylesheet">
+		<!-- Countdown CSS -->
+		<link href="css/jquery.countdown.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!--[if IE]><link rel="stylesheet" href="css/ie-style.css"><![endif]-->
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+		
+		<!-- Body Wrapper -->
+		<div class="wrapper white">
+					
+			<!-- Inner Page Content // Start -->
+			
+			<div class="inner-page">
+				<div class="container">
+					<div class="page-mainbar c-soon">
+						<!-- Coming Soon Content -->
+						<div class="c-soon-content br-red">
+							<!-- Heading -->
+							<h5>We are on the way...</h5>
+							<!-- Big Heading -->
+							<h2>Launching Soon<span>!!!</span></h2>
+							<!-- Paragraph -->
+							<p>A vital testing resource for your platform</p>
+							<!-- Countdown Html -->							
+							<div class="countdown">
+								<div id="countdown"></div>
+							</div>
+							<div class="clearfix"></div>
+							<!-- Heading -->
+							<!-- <h6>Subscribe Us</h6>-->
+							<!-- Subscribe form button and input box -->
+							<!-- <form role="form" class="form-inline sform">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Type your email">
+								</div>
+								<button type="button" class="btn btn-info">Subscribe</button>
+							</form>-->
+							<br/>
+							<p>plus or minus a few days ;-) .....</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Inner Page Content // End -->
+			
+			<!-- Footer Start -->
+			
+			<div class="footer padd-zero">
+				<div class="container">
+					<!-- Footer Copyright -->
+					<div class="footer-copyright">
+						<p>&copy; Copyright 2015 <a href="http://www.lovelldevelopments.co.uk">Lovell Developments</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Footer End -->
+			
+		</div>
+		<!-- Footer End -->
+		
+		<!-- Scroll to top -->
+		<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
+
+		
+		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Cycle JS -->
+		<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+		<!-- jQuery flot -->
+		<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+		<script src="js/jquery.flot.min.js"></script>     
+		<script src="js/jquery.flot.resize.min.js"></script>
+		<!-- Jquery for Countdown  -->		
+		<script src="js/jquery.plugin.min.js"></script>
+		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+		<!-- Count To JS  -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- jQuery way points -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+		<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+		<!-- Masonry JS -->
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!-- jQuery prettyPhoto & Isotope -->
+		<script src="js/jquery.prettyPhoto.js"></script>
+		<!-- Count down -->
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="js/isotope.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<!-- This Page JavaScript -->
+		<script type="text/javascript" >
+			
+			/* Countdown */
+
+			$(function(){
+				launchTime = new Date("January 11, 2017 09:00:00"); 
+				launchTime.setDate(1); 
+				$("#countdown").countdown({until: launchTime, format: "dHMS"});
+			});
+			
+			// Type your codde here
+		</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69829974-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>	
+</html>

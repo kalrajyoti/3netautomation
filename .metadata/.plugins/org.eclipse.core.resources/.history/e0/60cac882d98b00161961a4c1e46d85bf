@@ -1,0 +1,26 @@
+package com.livehealtier.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class BiometricScreeningpage {
+	 WebDriver driver;
+	public BiometricScreeningpage(WebDriver driver)
+	{
+		this.driver = driver;
+	}
+	
+	
+	public void shuduleBiometricScreening()
+	{
+		System.out.println("screening value in page class" +driver);
+		WebElement rootelement = driver.findElement(By.xpath("html/body/div[4]/div/div/div[3]/ul[2]/li[3]/span"));
+		WebElement subelement = driver.findElement(By.xpath(".//*[@id='navbar']/div/div/div[3]/ul[2]/li[3]/ul/li[3]/a"));
+		//Actions act = new Actions(driver);
+		//act.moveToElement(rootelement).build().perform();
+		subelement.click();
+	}
+
+}

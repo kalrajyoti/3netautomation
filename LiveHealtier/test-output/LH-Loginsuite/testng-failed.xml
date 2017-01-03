@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LH-Loginsuite]">
+  <test name="LoginPage(failed)">
+    <classes>
+      <class name="com.livehealtier.test.BiometricScreeningTest">
+        <methods>
+          <include name="getURL"/>
+          <include name="verfiyBiometricScreening"/>
+        </methods>
+      </class> <!-- com.livehealtier.test.BiometricScreeningTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [LH-Loginsuite] -->

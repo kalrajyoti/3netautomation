@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="cleartriptests-master"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="scenarios.Chapter_06_IntroducingPageFactory_FieldLevelAbstractions"/>
+<listEntry value="scenarios.Chapter_12_CaptureScreenShotIfTestFails"/>
+<listEntry value="scenarios.Chapter_07_IntroducingDomainDrivenLanguage"/>
+<listEntry value="scenarios.PageStore"/>
+<listEntry value="scenarios.Chapter_04_AbstractingTheDriver"/>
+<listEntry value="scenarios.BaseScenario"/>
+<listEntry value="pageFactoryWithPageStoreImpl.SearchResultsPage"/>
+<listEntry value="scenarios.BaseScenarioWithPropertyFileImplementation"/>
+<listEntry value="domain.JourneyDetails"/>
+<listEntry value="scenarios.Chapter_13_TipsnTricks"/>
+<listEntry value="scenarios.Chapter_01_TheFirstSeleniumTest"/>
+<listEntry value="domain.JourneyDetailsBuilder"/>
+<listEntry value="pages.SearchResultsPage"/>
+<listEntry value="scenarios.Chapter_09_AbstractingPageNavigationFromUserSpecifications"/>
+<listEntry value="util.DateUtil"/>
+<listEntry value="spec.SpecDefinition"/>
+<listEntry value="pageFactoryWithPageStoreImpl.LandingPage"/>
+<listEntry value="pages.LandingPage"/>
+<listEntry value="pageFactoryWithPageStoreImpl.FlightsSearchPage"/>
+<listEntry value="pages.FlightsSearchPage"/>
+<listEntry value="scenarios.Chapter_10_ImproveReadability_AddGWT"/>
+<listEntry value="pageFactoryImpl.SearchResultsPage"/>
+<listEntry value="scenarios.Chapter_02_MakingTheTestCodeReadable"/>
+<listEntry value="spec.SpecWithPageStoreImplementation"/>
+<listEntry value="pageFactoryImpl.LandingPage"/>
+<listEntry value="pageFactoryImpl.FlightsSearchPage"/>
+<listEntry value="scenarios.AppDriver"/>
+<listEntry value="scenarios.Chapter_11_ImproveReadability_RefactoringTheScenarioClass"/>
+<listEntry value="scenarios.Chapter_02_XX_Introducing_Conditional_Wait"/>
+<listEntry value="scenarios.Chapter_05_IntroducingPageObjectModel"/>
+<listEntry value="util.WaitFor"/>
+<listEntry value="scenarios.Chapter_XX_IntroducingPropertiesFile_For_TestSuiteLevelStuff"/>
+<listEntry value="scenarios.PropertyReader"/>
+<listEntry value="scenarios.Chapter_03_IntroducingSetupAndTearDown"/>
+<listEntry value="scenarios.Chapter_08_ImproveReadability_UserDrivenBehavior"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<mapAttribute key="org.testng.eclipse.PARAMETERS"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

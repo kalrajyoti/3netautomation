@@ -1,0 +1,19 @@
+
+public class ThreeNetBody {
+	
+	ThreeNetLeftNavigation threeNetLeftNavigationItems;
+	ThreeNetRightNavigation threeNetRightNavigationItems;
+	ThreeNetBody()
+	{
+		threeNetLeftNavigationItems = new ThreeNetLeftNavigation();
+		threeNetRightNavigationItems = new ThreeNetRightNavigation();
+	}
+	
+	void displayBoday()
+	{
+		threeNetLeftNavigationItems.displayLeftNavigation();
+		threeNetRightNavigationItems.display();
+	}
+	
+
+}

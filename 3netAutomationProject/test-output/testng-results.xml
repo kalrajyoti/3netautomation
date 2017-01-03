@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="3Net-Loginsuite" duration-ms="6284" started-at="2016-12-15T15:55:52Z" finished-at="2016-12-15T15:55:58Z">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="6284" started-at="2016-12-15T15:55:52Z" finished-at="2016-12-15T15:55:58Z">
+      <class name="com.org.threenet.test.LoginPageTest">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:com.org.threenet.test.LoginPageTest@3e6fa38a]" name="getUrl" is-config="true" duration-ms="6278" started-at="2016-12-15T21:25:52Z" finished-at="2016-12-15T21:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+      </class> <!-- com.org.threenet.test.LoginPageTest -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- 3Net-Loginsuite -->
+</testng-results>

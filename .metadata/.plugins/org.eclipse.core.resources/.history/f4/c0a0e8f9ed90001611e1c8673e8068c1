@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("Ajeet");
+		al.add("jyoti");
+		al.add("deepu");
+		al.add("meenakshi");
+		//for(String s:al)
+		//{	
+		
+	  //  System.out.println("The array list is:" +s );
+	  // }
+		Iterator <String> itr = al.iterator();
+		while(itr.hasNext())
+		{
+			String s = itr.next();
+			System.out.println("The array list is:" +s );
+		}
+
+}
+}

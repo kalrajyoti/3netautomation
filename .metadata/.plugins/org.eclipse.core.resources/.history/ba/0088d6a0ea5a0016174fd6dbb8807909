@@ -1,0 +1,9 @@
+
+public class ThreeNetMainContentArea {
+	ThreeNetMainNavigationPanel coloumName;
+	
+	ThreeNetMainContentArea()
+	{
+		coloumName
+	}
+}

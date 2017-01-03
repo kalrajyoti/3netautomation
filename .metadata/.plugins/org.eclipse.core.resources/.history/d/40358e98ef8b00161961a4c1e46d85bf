@@ -1,0 +1,5 @@
+BaseURL=http://portal.qa-web01.livehealthier.com/V2/login.aspx
+Username=grcsanuser3
+Password=Live@123
+Menuxpath=html/body/div[4]/div/div/div[3]/ul[2]/li[3]/span
+submenuxpath=.//*[@id='navbar']/div/div/div[3]/ul[2]/li[3]/ul/li[3]/a

@@ -1,0 +1,19 @@
+
+public class ThreeNetMainNavigationPanelNames {
+	String panelHeadingName;
+	
+	ThreeNetMainNavigationPanelNames(String panelHeadingName)
+	{
+		this.panelHeadingName = panelHeadingName;
+	}
+	void displayPanelHeadingNames()
+	{
+		System.out.println("<---------ThreeNet Main Navigation Content started------>");
+		
+		System.out.println(panelHeadingName);
+		
+	}
+	
+	
+
+}

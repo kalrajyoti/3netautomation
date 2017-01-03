@@ -1,0 +1,21 @@
+
+public class ThreeNetWebsite {
+
+	public static void main(String[] args) {
+		
+		//ThreeNetWebsite threeNetmain = new ThreeNetWebsite();
+		System.out.print("===================3net processing Started====================== ");
+		TPGNetMainHeader threeNetmainHeader = new TPGNetMainHeader();
+		threeNetmainHeader.dispay();
+		System.out.println("====================3net body started=========================== ");
+		ThreeNetBody threenetBody = new ThreeNetBody();
+		threenetBody.displayBoday();
+	
+		System.out.println("====================3net body finished=========================== ");
+		TPGFootor tpgfooter = new TPGFootor();
+		tpgfooter.display();
+		System.out.println("===================3net processing ended=========================");
+		
+	}
+
+}

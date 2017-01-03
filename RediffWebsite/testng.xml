@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RedifMailTestSuite">
+  <test name="DefaultPage">
+    <classes>
+      <class name="com.redif.pages.test.DefaultPageTest"/>
+       <class name="com.redif.pages.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- DefaultPage -->
+</suite> <!-- RedifMailTestSuite -->

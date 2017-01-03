@@ -1,0 +1,32 @@
+package com.org.threenet.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class DailyAttendanceMenuItem {
+	
+	WebDriver driver;
+	
+	public DailyAttendanceMenuItem(WebDriver driver)
+	{
+		this.driver = driver;
+		
+	}
+	
+	
+    public boolean viewDailyAttendanceReport()
+    {
+    	WebElement dailyattenceform =driver.findElement(By.linkText("Daily Attendance"));
+    	
+    	if(dailyattenceform==null)
+    	{
+    		return false;
+    	}
+    	dailyattenceform.click();
+    	return true;
+    }
+   
+
+
+}

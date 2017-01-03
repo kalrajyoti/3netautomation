@@ -1,0 +1,28 @@
+import com.test.ParentForAll;
+
+
+public class TPGNetMainHeader {
+	ThreeNetLogo threeNetLogo;
+	 MenuBar menuBar;
+	
+	TPGNetMainHeader()
+	{
+		threeNetLogo = new ThreeNetLogo();
+		menuBar = new MenuBar();
+	}
+	
+
+	
+	void dispay()
+	{
+		threeNetLogo.displayLogoColour();
+		menuBar.findMenu();
+		
+		MenuItem m1 = new MenuItem("Test");
+		
+		ParentForAll p1 = new MenuItem("Test");
+		
+		
+		
+	}
+}

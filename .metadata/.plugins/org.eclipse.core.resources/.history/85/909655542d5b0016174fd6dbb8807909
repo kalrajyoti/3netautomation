@@ -1,0 +1,42 @@
+
+public class ThreeNetMainNavigationPanelNames {
+	String panelHeadingName;
+	String [] coloumList;
+	String[] coloumDetail;
+	
+	ThreeNetMainNavigationPanelNames(String panelHeadingName,String [] coloumList,String[] coloumDetail)
+	{
+		this.panelHeadingName = panelHeadingName;
+		this.coloumList = coloumList;
+		this.coloumDetail = coloumDetail;
+	}
+	void displayPanelHeadingNames()
+	{
+		
+		
+		System.out.println(panelHeadingName);
+		System.out.println("-----------------------------------");
+		for(int count =0;count<coloumList.length;count++)
+		{
+			
+			System.out.print(coloumList[count] + "                                            ");
+			// for(int j = count;j<coloumDetail.length;j++)
+			 //{
+				// System.out.println(coloumDetail[j] +         "                 ");
+			// }
+			
+			
+		}
+		System.out.println();
+		for(int count =0;count<coloumDetail.length;count++)
+		{
+			System.out.println(coloumDetail[count]+ "No Pending Requests" );
+			
+		}
+		System.out.println(" ");
+		
+	}
+	
+	
+
+}

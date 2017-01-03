@@ -1,0 +1,18 @@
+
+public class ThreeNetMainNavigationPanelDetails {
+
+	       String mainNavigationPanelHeader;
+	       
+	       
+	       ThreeNetMainNavigationPanelDetails(String mainNavigationPanelHeader)
+	       {
+	    	   this.mainNavigationPanelHeader = mainNavigationPanelHeader;
+	       }
+	       
+	     void display()
+	     {
+	    	 System.out.println(mainNavigationPanelHeader);
+	     }
+	       
+	       
+}
